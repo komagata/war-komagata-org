@@ -33,7 +33,7 @@ body {
 }
 
 .site_title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin: 0;
   padding: 0;
@@ -59,8 +59,12 @@ article {
   margin-bottom: 4rem;
   padding: 0;
 
+  .title {
+    font-size: 2rem;
+  }
+
   img {
-    max-width: 95%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -68,8 +72,9 @@ article {
 }
 
 footer {
-  margin-top: 1rem;
+  padding: 1rem 0;
   max-width: var(--max-width);
+  text-align: center;
 }
 
 a {
