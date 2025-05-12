@@ -1,0 +1,4 @@
+baseURL = 'https://war.komagata.org/'
+languageCode = 'ja-JP'
+title = '大東亜戦争従軍記'
+theme = 'war-diary'
