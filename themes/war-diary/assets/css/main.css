@@ -74,15 +74,12 @@ footer {
 
 a {
   color: var(--color-link);
-  text-decoration: none;
 }
 
 a:hover {
   color: var(--color-link);
-  text-decoration: underline;
 }
 
 a:visited {
   color: var(--color-link);
-  text-decoration: none;
 }
