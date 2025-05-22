@@ -16,7 +16,7 @@ body {
   padding: 0;
   height: 100%;
   color: #000;
-  font-family: sans-serif;
+  font-family: serif;
   font-size: 20px;
   line-height: 1.8;
 }
@@ -79,12 +79,15 @@ footer {
 
 a {
   color: var(--color-link);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--color-link);
+  text-decoration: none;
 }
 
 a:visited {
   color: var(--color-link);
+  text-decoration: none;
 }
