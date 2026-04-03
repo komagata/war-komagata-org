@@ -1,8 +1,0 @@
-{{ define "main" }}
-  {{ range site.RegularPages.ByParam "order" }}
-    <article>
-      <h2 class="title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    </article>
-  {{ end }}
-{{ end }}

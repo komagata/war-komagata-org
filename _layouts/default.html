@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja-JP" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="site_title"><a href="/">{{ site.title }}</a></h1>
+      <div class="sub_title">祖父の従軍記</div>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <p>連絡はこちらまで <a href="https://komagata.org">@komagata</a></p>
+    </footer>
+  </div>
+</body>
+</html>

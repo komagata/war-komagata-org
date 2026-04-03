@@ -1,0 +1,26 @@
+title: 大東亜戦争従軍記
+url: https://war.komagata.org
+baseurl: ""
+lang: ja-JP
+permalink: /:title/
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+exclude:
+  - archives
+  - content_backup_20250513
+  - posts.csv
+  - scripts
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
