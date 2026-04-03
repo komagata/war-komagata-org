@@ -5,6 +5,6 @@ layout: default
 {% for p in sorted_pages %}
   <article>
     <h2 class="title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
-    {{ p.excerpt }}
+    {{ p.content }}
   </article>
 {% endfor %}
